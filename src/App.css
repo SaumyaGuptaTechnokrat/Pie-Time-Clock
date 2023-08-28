@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+*{
+  padding: 5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: darkblue;
+  font-family: 'IBM Plex Mono', monospace;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#clock{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 30vh;
+  margin: 10% auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  z-index: -1;
+}
+.App{
+  display: flex;
+}
+.card{
+  border: 1px #0ef solid;
+  box-shadow: 0px 0 30px #0ef;
+  background-color: transparent !important;
+  transition: all ease 2s;
+}
+.card:hover{
+  box-shadow: 0px 0 30px #0ef !important;
+  scale:1.05;
+}
+#stopwatch-container{
+  margin-top: 5px;
+  margin-left: 20%;
+  text-align: center;
+  transition: all ease 2s;
 }
 
-.App-link {
-  color: #61dafb;
+#stopwatch-container:hover{
+  scale: 1;
+}
+#time{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+    color: #0ef;
+  text-align: center;
+  text-shadow: 2px 2px 5px #0ef;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#display{
+  color: #0ef;
+}
+#stopwatch-container button{
+  color: #0ef;
+  background: transparent !important;
+  border-radius: 5px;
+}
+
+#stop-watch-body{
+  background: transparent !important;
+}
+#stop-watch-header{
+  background: transparent !important;
+}
+#stop-watch-acc{
+  padding: 10px;
+}
+#accordions{
+  display: flex !important;
+  justify-content: center;
+  margin-left: 10%;
+
+}
+.alarm{
+  color: #0ef;
+}
+.alarm button {
+  color: #0ef;
+  background: transparent !important;
+  margin-bottom: 1vh;
+  border-radius: 5px;
+  outline: none !important;
+}
+.alarm input{
+  border-radius: 5px;
+  background: transparent !important;
+  color: rgb(0, 255, 255);
+  outline: none !important; 
+}
+.blue{
+  background-color: #0ef;
+  align-items: center;
+}
+.red{
+  position: relative;
+  background-color: red;
 }
