@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SaumyaGuptaTechnokrat/Pie-Time-Clock.git/static/css/main.017cbd10.css",
+    "main.js": "/SaumyaGuptaTechnokrat/Pie-Time-Clock.git/static/js/main.5df932cf.js",
+    "static/js/787.37c64189.chunk.js": "/SaumyaGuptaTechnokrat/Pie-Time-Clock.git/static/js/787.37c64189.chunk.js",
+    "index.html": "/SaumyaGuptaTechnokrat/Pie-Time-Clock.git/index.html",
+    "main.017cbd10.css.map": "/SaumyaGuptaTechnokrat/Pie-Time-Clock.git/static/css/main.017cbd10.css.map",
+    "main.5df932cf.js.map": "/SaumyaGuptaTechnokrat/Pie-Time-Clock.git/static/js/main.5df932cf.js.map",
+    "787.37c64189.chunk.js.map": "/SaumyaGuptaTechnokrat/Pie-Time-Clock.git/static/js/787.37c64189.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.017cbd10.css",
+    "static/js/main.5df932cf.js"
+  ]
+}
